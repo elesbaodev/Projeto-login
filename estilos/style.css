@@ -161,8 +161,6 @@ div.campo > span {
 
 #mailicon {
     display: inline-block;
-    transform: translate(60px, -28px);
-    text-align: top;
-    font-size: medium;
+    font-size: 0.8em;
 }
     
