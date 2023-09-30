@@ -26,7 +26,6 @@ main#login {
     margin: auto;
     width: 61%;
     border-radius: 40px;
-    transition-duration: 1s;
     
 }
 
@@ -49,7 +48,7 @@ section {
     padding: 40px;
     padding-top: 50px;
     height: 50vh;
-    width: calc(100% - 45px);
+    width: calc(100% - 50px);
     margin: auto;
     background-color: white;
     border-radius: 0px 0px 40px 40px;
