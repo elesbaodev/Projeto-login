@@ -22,7 +22,7 @@ html, body {
 }
 
 main#login {
-    transform: translate(0px, 62px);
+    transform: translate(0px, 11px);
     margin: auto;
     width: 61%;
     border-radius: 40px;
@@ -31,12 +31,12 @@ main#login {
 }
 
 div#imagem {
-   background-image: url(../imagens/metal.jpg); 
-   height: 30vh;
-   width: calc(103% - 10px);
-   border-radius: 25px 25px 0px 0px;
-   background-size: cover;
-   background-position: left;
+    background-image: url(../imagens/metal.jpg);
+    height: 30vh;
+    width: 112%;
+    border-radius: 25px 25px 0px 0px;
+    background-size: cover;
+    background-position: left;
     background-repeat: no-repeat;
    
 
@@ -48,7 +48,8 @@ section {
     transition-duration: 0.1s;
     padding: 40px;
     padding-top: 50px;
-    height: 45vh;
+    height: 50vh;
+    width: calc(100% - 45px);
     margin: auto;
     background-color: white;
     border-radius: 0px 0px 40px 40px;
@@ -75,9 +76,10 @@ form > div.campo {
     background-color: var(--colorp1);
     margin: auto;
     border: 2px solid #5f2c82;
-    width: 50vw;
+    width: calc(100% - 2px);
     height: 40px;
     border-radius: 8px;
+
 
 }
 
@@ -107,6 +109,7 @@ div > #itensform {
     width: calc(105% - -13px);
     border-radius: 10px;
     padding: 10px;
+    font-size: 1.3em;
     margin: auto;
     background-color: #1fa39f;
     cursor: pointer;
@@ -125,6 +128,7 @@ div > #itensform {
     width: calc(105% - 13px);
     border-radius: 10px ;
     padding: 10px;
+    font-size: 1.1em;
     margin: auto;
     cursor: pointer;
 }
@@ -162,5 +166,11 @@ div.campo > span {
 #mailicon {
     display: inline-block;
     font-size: 0.8em;
+}
+
+@media screen and (min-width: 543px) and (max-width: 767px) {
+    div#imagem {
+        width: 109%;
+    }
 }
     
