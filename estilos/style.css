@@ -32,7 +32,7 @@ main#login {
 div#imagem {
     background-image: url(../imagens/metal.jpg);
     height: 30vh;
-    width: 112%;
+    width: 111%;
     border-radius: 25px 25px 0px 0px;
     background-size: cover;
     background-position: left;
