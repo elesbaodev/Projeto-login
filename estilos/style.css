@@ -109,6 +109,7 @@ div > #itensform {
     width: calc(105% - -13px);
     border-radius: 10px;
     padding: 10px;
+    font-size: 1.3em;
     margin: auto;
     background-color: #1fa39f;
     cursor: pointer;
@@ -128,6 +129,7 @@ div > #itensform {
     border-radius: 10px ;
     padding: 10px;
     margin: auto;
+    font-size: 1.1em;
     cursor: pointer;
 }
 
