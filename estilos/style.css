@@ -23,16 +23,16 @@ html, body {
 }
 
 main#login {
-    transform: translate(0px, 11px);
     margin: auto;
     width: 61%;
     border-radius: 40px;
+    transform: translate(0px, 11px);
     
 }
 
 div#imagem {
     background-image: url(../imagens/metal.jpg);
-    height: 30vh;
+    height: 23vh;
     width: 111%;
     border-radius: 25px 25px 0px 0px;
     background-size: cover;
@@ -45,14 +45,15 @@ div#imagem {
 }
 
 section {
-    transition-duration: 0.1s;
     padding: 40px;
     padding-top: 50px;
-    height: 50vh;
+    height: 38vh;
     width: calc(100% - 50px);
     margin: auto;
+    overflow: hidden;
     background-color: white;
     border-radius: 0px 0px 40px 40px;
+    transition-duration: 0.1s;
 }
 
 
@@ -96,26 +97,32 @@ div.campo > input {
     
 }
 
+div.campo > input:focus-within {
+    background-color: white;
+}
+
 
 div > #itensform {
     width: 28vw;
 }
 
 
- #enviar {
+ form > div > input[type=submit] {
     color: white;
     display: block;
     text-align: center;
     width: calc(105% - -13px);
     border-radius: 10px;
     padding: 10px;
+    border: none;
     font-size: 1.3em;
     margin: auto;
+    margin-bottom: 10px;
     background-color: #1fa39f;
     cursor: pointer;
 }
 
-#enviar:hover {
+form > div >  input[type="submit"]:hover {
     background-color: #0f6862;
 
 
@@ -126,22 +133,22 @@ div > #itensform {
     display: block;
     text-align: center;
     width: calc(105% - 13px);
-    border-radius: 10px ;
+    border-radius: 10px;
+    border: none;
     padding: 10px;
     font-size: 1.1em;
+    border: 2px solid #0f6862 ;
+    font-size: 1.2em;
     margin: auto;
     cursor: pointer;
+    text-decoration: none;
 }
 
-input#senhareset:hover {
+#senhareset:hover {
     background-color: #23c9c394;
     
 
 
-}
-
-div > a {
-    text-decoration: none;
 }
 
 
@@ -152,8 +159,8 @@ form > #campo02 {
     border: 2px solid #5f2c82;
     height: 40px;
     border-radius: 8px;
-    transform: translate(1px, 3px);
     margin-bottom: 10px;
+    transform: translate(1px, 3px);
 }
 div.campo > span {
     color: white;
