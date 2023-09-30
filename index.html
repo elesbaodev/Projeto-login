@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/outrastela.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <main id="login">
+        <div id="imagem">
+                    
+        </div>
+        <section>            
+            <div id="formulario">
+                <h1>Login</h1>
+                <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente.</p>
+                <div id="formbase">
+                </div>
+                <form id="dmail" action="login.js" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span id="pessoa" class="material-symbols-outlined"> person </span>
+                        <label class="itensform" for="mail"></label>
+                        <input  type="email" name="email" id="mail" autocomplete="email" 
+                        placeholder="seu e-mail"
+                        onclick="clickOn()" onmouse required>
+                        </div>
+                        <div id="campo02" class="campo">
+                            <span class="material-symbols-outlined">
+                                key
+                                </span>
+                            <label class="itensform" for="pass"></label>
+                            <input  type="password" name="password" id="pass" autocomplete="current-password" 
+                            placeholder="sua senha"
+                            minlength="8"
+                            onclick="clickOn()" required>
+                    </div>
+
+                    <div >
+                        <label for="enviar"></label>
+                    <input type="submit" value="Entrar" id="enviar">
+                    </div>
+
+                    <div  id="senhareset" >
+                        <label for="senhareset"></label>
+                    <a href="login.js"><input type="button" value="Esqueci a senha" id="senhareset" autocomplete="reset-password"></a>
+                    <span id="mailicon" class="material-symbols-outlined">
+                        mail
+                        </span>
+                    </div>
+                </form>
+                    
+        </section>
+    </main>
+
+    <script>
+        function clickOn () {
+           if (itensform.style.background = "rgb(255,255,255)") {
+
+           }
+            else {
+                itensform.style.background = "#49a09d69"
+
+            }
+
+        } 
+    </script> 
+</body>
+</html>

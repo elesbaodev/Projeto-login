@@ -1,0 +1,228 @@
+@charset "UTF-8";
+
+    
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+ 
+    html,body {background-image: linear-gradient(to left, #5f2c82, #49a09d);}
+
+    :root {
+        --colorp1: #5f2c82;
+        --colorp2: #49a09d;
+    }
+
+ 
+    main#login {
+        height: 45vh;
+        width: 55%;
+        transform: translate(2px, 140px);
+   
+ 
+    }
+
+    section {
+        background-color: transparent;
+        transform: translate(0px, -210px);
+    }
+
+    div#imagem {
+        height: 98.98%;
+        width: calc(100% - 50px);
+        border-radius: 30px 0px 0px 30px;
+        background-image: url(../imagens/metal.jpg);
+        background-position: left;
+        background-size: cover;
+    
+
+
+    }
+
+
+    #formulario {
+        transform: translate(69px, -46%);
+        display: block;
+        padding: 10px;
+        padding: 40px;
+        width: 49vw;
+        text-align: center;
+        height: 33vh;
+        background-color: white;
+        border-radius: 0px 10px 10px 0px;
+    }
+
+
+    div#formulario > h1 {
+        margin-bottom: 0px;
+        text-align: top;
+    }
+
+    form > div.campo  {
+        width: 50vw;
+    }
+
+    input#mail, input#pass {
+        width: 37vw;
+        transform: translate(-6px, -10px);
+    }
+
+
+    div#campo02 {
+        margin-bottom: 5px;
+    }
+
+
+    #enviar {
+        width: 50vw;
+        margin-bottom: 5px;
+    }
+
+    #senhareset {
+        transform: translate(-4px, -5px);
+        width: 50vw;
+    }
+
+    
+}
+
+@media screen and (min-width:992px) {
+    
+    html,body {background-image: linear-gradient(to left, #5f2c82, #49a09d);}
+    
+    main#login {
+        width: 70%;
+        height: 55vh;
+        transform: translate(2px, 140px);
+    }
+
+    div#imagem {
+        background-image: url(../imagens/metal.jpg);
+        background-position: right;
+        height: 98%;
+        width: calc(50% - 10px);
+        transform: translate(398px, 1px);
+        border-radius: 0px 23px 23px 0px;
+    }
+    div.campo > input {
+        background-color: #94cfcd;
+        font-size: 1em;
+        width: 25vw;
+        height: 50%;
+        border: 0px;
+        border-radius: 8px;
+        padding: 4px;
+        transform: translate(44px, -32px); 
+     }
+
+    
+
+    div#formulario > p {
+        display: inline-block;
+        font-size: 0.9em;
+        width: 33vw;
+        margin-bottom: 3px;
+    }
+
+    form > div.campo  {
+        width: 33vw;
+    }
+
+    div#formulario > h1 {
+        font-size: 1.9em;
+        font-weight: 890;
+    }
+
+    input#mail, input#pass {
+        width: 28vw;
+        margin: auto;
+    }
+
+    section {
+        transform: translate(12px, -364px);
+        width: 31vw;
+        height: 41vh;
+        border-radius: 23px 0px 0px 23px;
+    }
+    
+    #enviar {
+        width: 33vw;
+        margin-bottom: 5px;
+    }
+
+    #senhareset {
+        width: 33vw;
+    }
+}
+
+@media screen and (min-width: 1249px) {
+
+    input#mail, input#pass {
+        transform: translate(0px, -8px);
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    html,body {background-image: linear-gradient(to left, #5f2c82, #49a09d);}
+    
+    main#login {
+        width: 80vw;
+        height: 55vh;
+        transform: translate(2px, 140px);
+    }
+
+    div#imagem {
+        display: none;
+        background-image: url(../imagens/metal.jpg);
+        background-position: left;
+        height: 98%;
+        width: 421px;
+        transform: translate(398px, 1px);
+        border-radius: 0px 23px 23px 0px;
+    }
+
+    div#formulario {
+        margin: auto;
+    }
+
+    div#formulario > p {
+        display: inline-block;
+        font-size: 1.3em;
+        width: 33vw;
+        margin-bottom: 3px;
+    }
+
+    form > div.campo  {
+        width: 33vw;
+    }
+
+
+    div#formulario > h1 {
+        font-size: 2em;
+        font-weight: 890;
+    }
+
+    input#mail, input#pass {
+        transform: translate(-5px, -8px);
+        width: 28vw;
+        margin: auto;
+    }
+
+    
+    #enviar {
+        width: 33vw;
+        margin-bottom: 5px;
+    }
+
+    #senhareset {
+        width: 33vw;
+    }
+
+    section {
+        margin: auto;
+        transform: translate(0px, 30px);
+        width: 50vw;
+        height: 50vh;
+        border-radius: 20px;
+    }
+}
