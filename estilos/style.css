@@ -22,7 +22,7 @@ html, body {
 }
 
 main#login {
-    transform: translate(0px, 11px);
+    transform: translate(0px, 62px);
     margin: auto;
     width: 61%;
     border-radius: 40px;
@@ -48,8 +48,7 @@ section {
     transition-duration: 0.1s;
     padding: 40px;
     padding-top: 50px;
-    height: 50vh;
-    width: calc(103% - 90px);
+    height: 45vh;
     margin: auto;
     background-color: white;
     border-radius: 0px 0px 40px 40px;
@@ -76,10 +75,9 @@ form > div.campo {
     background-color: var(--colorp1);
     margin: auto;
     border: 2px solid #5f2c82;
-    width: calc(100% - 2px);
+    width: 50vw;
     height: 40px;
     border-radius: 8px;
-
 
 }
 
@@ -109,7 +107,6 @@ div > #itensform {
     width: calc(105% - -13px);
     border-radius: 10px;
     padding: 10px;
-    font-size: 1.3em;
     margin: auto;
     background-color: #1fa39f;
     cursor: pointer;
@@ -125,9 +122,9 @@ div > #itensform {
     color: #0f6862;
     display: block;
     text-align: center;
+    width: calc(105% - 13px);
     border-radius: 10px ;
     padding: 10px;
-    font-size: 1.1em;
     margin: auto;
     cursor: pointer;
 }
