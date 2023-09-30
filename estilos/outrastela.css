@@ -40,7 +40,7 @@
 
 
     #formulario {
-        transform: translate(113px, -60%);
+        transform: translate(94px, -60%);
         display: block;
         padding: 10px;
         padding: 40px;
@@ -51,6 +51,7 @@
         background-color: white;
         border-radius: 0px 10px 10px 0px;
     }
+    
 
 
     div#formulario > h1 {
