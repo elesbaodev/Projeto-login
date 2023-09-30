@@ -125,7 +125,6 @@ div > #itensform {
     color: #0f6862;
     display: block;
     text-align: center;
-    width: calc(105% - 13px);
     border-radius: 10px ;
     padding: 10px;
     font-size: 1.1em;
